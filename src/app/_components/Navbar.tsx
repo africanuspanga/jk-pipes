@@ -41,25 +41,15 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#home" className="flex items-center gap-3">
-          <span className="relative block h-12 w-12 overflow-hidden rounded-xl ring-1 ring-jk-border bg-white">
-            <Image
-              src="/JK PIPES LOGO.png"
-              alt="JK Pipes logo"
-              fill
-              sizes="48px"
-              className="object-contain p-1"
-              priority
-            />
-          </span>
-          <span className="flex flex-col leading-none">
-            <span className="text-lg font-extrabold tracking-tight text-jk-navy">
-              JK <span className="text-jk-red">Pipes</span>
-            </span>
-            <span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-jk-navy/60">
-              Quality • Affordable • Available
-            </span>
-          </span>
+        <a href="#home" aria-label="JK Pipes — home" className="flex items-center">
+          <Image
+            src="/JK PIPES LOGO.png"
+            alt="JK Pipes"
+            width={1341}
+            height={498}
+            priority
+            className="h-16 w-auto sm:h-[68px]"
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-1">

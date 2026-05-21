@@ -44,24 +44,16 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 py-16 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <div className="flex items-center gap-3">
-              <span className="relative block h-12 w-12 overflow-hidden rounded-xl bg-white">
+            <div className="flex items-center">
+              <span className="relative block h-20 w-20 overflow-hidden rounded-2xl bg-white p-2 shadow-lg sm:h-24 sm:w-24">
                 <Image
                   src="/JK PIPES LOGO.png"
-                  alt="JK Pipes logo"
+                  alt="JK Pipes"
                   fill
-                  sizes="48px"
-                  className="object-contain p-1"
+                  sizes="96px"
+                  className="object-contain"
                 />
               </span>
-              <div className="leading-none">
-                <p className="text-xl font-extrabold">
-                  JK <span className="text-jk-red">Pipes</span>
-                </p>
-                <p className="mt-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/60">
-                  Quality • Affordable • Available
-                </p>
-              </div>
             </div>
             <p className="mt-5 max-w-md text-sm leading-relaxed text-white/70">
               Supplier of durable HDPE, PPH, PPR, PVC and Gas Pipes with fittings — for
